@@ -1,6 +1,22 @@
 # GOL
 Game of Life implemented in Node.js
 
+## Usage
+```
+let g1 = [
+        [0,0,0,0,0],
+        [0,1,1,0,0],
+        [0,1,1,0,0],
+        [0,0,0,1,1],
+        [0,0,0,1,1]
+    ];
+for(let i = 0;i < 1000;i++)
+{
+    console.log(printGrid(g1));
+    g1 = iterate(g1);
+}
+```
+
 ## Screenshots
 <table>
 <tr>
