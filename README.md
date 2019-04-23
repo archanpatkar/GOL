@@ -2,7 +2,7 @@
 Game of Life implemented in Node.js
 
 ## Usage
-```
+```javascript
 let g1 = [
         [0,0,0,0,0],
         [0,1,1,0,0],
@@ -10,6 +10,7 @@ let g1 = [
         [0,0,0,1,1],
         [0,0,0,1,1]
     ];
+    
 for(let i = 0;i < 1000;i++)
 {
     console.log(printGrid(g1));
