@@ -1,5 +1,5 @@
 # GOL
-Game of Life implemented in Node.js
+### Game of Life implemented in Node.js
 
 ## Usage
 ```javascript
